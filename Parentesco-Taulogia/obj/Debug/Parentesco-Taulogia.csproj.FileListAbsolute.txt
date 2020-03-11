@@ -1,0 +1,10 @@
+C:\Users\wever\source\repos\Parentesco-Taulogia\bin\Debug\Parentesco-Taulogia.exe.config
+C:\Users\wever\source\repos\Parentesco-Taulogia\bin\Debug\Parentesco-Taulogia.exe
+C:\Users\wever\source\repos\Parentesco-Taulogia\bin\Debug\Parentesco-Taulogia.pdb
+C:\Users\wever\source\repos\Parentesco-Taulogia\obj\Debug\Parentesco-Taulogia.csprojAssemblyReference.cache
+C:\Users\wever\source\repos\Parentesco-Taulogia\obj\Debug\Parentesco_Taulogia.Form1.resources
+C:\Users\wever\source\repos\Parentesco-Taulogia\obj\Debug\Parentesco_Taulogia.Properties.Resources.resources
+C:\Users\wever\source\repos\Parentesco-Taulogia\obj\Debug\Parentesco-Taulogia.csproj.GenerateResource.cache
+C:\Users\wever\source\repos\Parentesco-Taulogia\obj\Debug\Parentesco-Taulogia.csproj.CoreCompileInputs.cache
+C:\Users\wever\source\repos\Parentesco-Taulogia\obj\Debug\Parentesco-Taulogia.exe
+C:\Users\wever\source\repos\Parentesco-Taulogia\obj\Debug\Parentesco-Taulogia.pdb

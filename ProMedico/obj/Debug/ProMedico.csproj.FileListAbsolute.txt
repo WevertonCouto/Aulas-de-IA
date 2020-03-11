@@ -1,0 +1,14 @@
+C:\Users\wever\source\repos\ProMedico\bin\Debug\ProMedico.exe.config
+C:\Users\wever\source\repos\ProMedico\bin\Debug\ProMedico.exe
+C:\Users\wever\source\repos\ProMedico\bin\Debug\ProMedico.pdb
+C:\Users\wever\source\repos\ProMedico\obj\Debug\ProMedico.csprojAssemblyReference.cache
+C:\Users\wever\source\repos\ProMedico\obj\Debug\ProMedico.Form1.resources
+C:\Users\wever\source\repos\ProMedico\obj\Debug\ProMedico.Properties.Resources.resources
+C:\Users\wever\source\repos\ProMedico\obj\Debug\ProMedico.csproj.GenerateResource.cache
+C:\Users\wever\source\repos\ProMedico\obj\Debug\ProMedico.csproj.CoreCompileInputs.cache
+C:\Users\wever\source\repos\ProMedico\obj\Debug\ProMedico.exe
+C:\Users\wever\source\repos\ProMedico\obj\Debug\ProMedico.pdb
+C:\Users\wever\source\repos\ProMedico\bin\Debug\ProMedico.exe.manifest
+C:\Users\wever\source\repos\ProMedico\bin\Debug\ProMedico.application
+C:\Users\wever\source\repos\ProMedico\obj\Debug\ProMedico.exe.manifest
+C:\Users\wever\source\repos\ProMedico\obj\Debug\ProMedico.application

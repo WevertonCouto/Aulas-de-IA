@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ProMedico.exe" version="1.0.0.0" publicKeyToken="e0a8ea7e61cefa92" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ProMedico" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ProMedico.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto UAC
+          Se desejar mudar o nível de Controle de Conta de Usuário do Windows, substitua o
+          nó requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se deseja usar a Virtualização de Arquivos e Registro para compatibilidade
+         com versões anteriores, exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProMedico.exe" size="15328">
+      <assemblyIdentity name="ProMedico" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pI9wZv5hzxl0Cm8YUkLvnK706yv9wnFrukz6RKXWXDA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ProMedico.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-Q82SOKDT\wever" issuerKeyHash="f131b8e64d71370a925649f00b634ad69596d1cc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LG3n4d2BtTblaYecNP9fIHfx1V5kMa2HiZvMnwjno+o=</DigestValue></Reference></SignedInfo><SignatureValue>Z6SHf5kEtE4kKaLVjt4aCA8x7Y4sVffpIjVRUavx2Qa5d/whODSAYR3zStVDYo9VhFk0f/3LmJ5BxgjcGTPFPwleF1PAVfW8WYEpvLFVtfTxX5AVPYVW029ZHKXzd/6LdTclA0stK+/sgXqYrtDKRi3kfgX7lnHnTwPE/I1PvJw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vmv1185YjMkpAV7SKhnEmHf/KMkz51J0vcz4hCwYRDX/ugS97rjtsAZEzi/bLfsbmrTg0tAu6+H+iZg7P0kGa4G080EA0Q7egF5nK1TDlYFFXqJuPEcsfFFONJPWib7jtGSl2yGIhvENlxHFi9giOPZt70W93pWuNB4I63DmS/U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="eaa3e7089fcc9b8987ad31645ed5f177205fff349c8769e536b581dde1e76d2c" Description="" Url=""><as:assemblyIdentity name="ProMedico.exe" version="1.0.0.0" publicKeyToken="e0a8ea7e61cefa92" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-Q82SOKDT\wever</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pQN8IYvbovfIBgg1kWsUsgVYfkD9iXb+ftKhq68EFxc=</DigestValue></Reference></SignedInfo><SignatureValue>jC635kRH1EaGg1IYtFMglsB5ao6xadlNo3vXmSRJhH4lP4rLpvVU4OynuvTjClioB054hU5SkhC3ZkmpqB3JlptFFAF3pEJ2Z4lJr95XDloBLZTNaNrRlHIh9rb1kHsxcr9heEqP39FVYEtb1jZdb8+thtF0YJy+8DcrOTadgiM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vmv1185YjMkpAV7SKhnEmHf/KMkz51J0vcz4hCwYRDX/ugS97rjtsAZEzi/bLfsbmrTg0tAu6+H+iZg7P0kGa4G080EA0Q7egF5nK1TDlYFFXqJuPEcsfFFONJPWib7jtGSl2yGIhvENlxHFi9giOPZt70W93pWuNB4I63DmS/U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQE1mj5MMav6JPNcW38S8oDDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBRADgAMgBTAE8ASwBEAFQAXAB3AGUAdgBlAHIwHhcNMjAwMzA0MDIwMjEwWhcNMjEwMzA0MDgwMjEwWjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBRADgAMgBTAE8ASwBEAFQAXAB3AGUAdgBlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL5r9dfOWIzJKQFe0ioZxJh3/yjJM+dSdL3M+IQsGEQ1/7oEve647bAGRM4v2y37G5q04NLQLuvh/omYOz9JBmuBtPNBANEO3oBeZytUw5WBRV6ibjxHLHxRTjST1om+47RkpdshiIbxDZcRxYvYIjj2be9Fvd6VrjQeCOtw5kv1AgMBAAEwDQYJKoZIhvcNAQELBQADgYEALOE9sx6tDSoWJyOYTjYGa/vjYehWEL15cSziwZkpeCnjfb2xgLJfm70kkTpuwgr3pdlUui/9NIx3FzKV7sOb4AoPUswA+VSiD6KywlVcAUzkPsNglD83juLP+9oM3kur5x9YIuoVNOdKNcoHLrQ8BBTd8XkE1P/o+ZEZyINkcps=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
